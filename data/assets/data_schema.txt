@@ -1,0 +1,133 @@
+Table ChampionTbl {
+  ChampionId integer [primary key]
+  ChampionName varchar [not null]
+}
+
+Table ItemTbl {
+  ItemID integer [primary key]
+  ItemName varchar [not null]
+}
+
+Table MatchStatsTbl {
+  MatchStatsId integer [primary key]
+  SummonerMatchFk integer 
+  MinionsKilled integer
+  DmgDealt integer
+  DmgTaken integer
+  TurretDmgDealt integer
+  TotalGold integer
+  Lane varchar
+  Win bool
+  item1 integer
+  item2 integer
+  item3 integer
+  item4 integer
+  item5 integer
+  item6 integer
+  kills integer
+  deaths integer
+  assists integer
+  PrimaryKeyStone integer
+  PrimarySlot1 integer
+  PrimarySlot2 integer
+  PrimarySlot3 integer
+  SecondarySlot1 integer
+  SecondarySlot2 integer
+  SummonerSpell1 integer
+  SummonerSpell2 integer
+  CurrentMasteryPoints integer
+  EnemyChampionFk integer
+  DragonKills integer
+  BaronKills integer
+  visionScore integer
+}
+
+Table MatchTbl {
+  MatchId integer [primary key]
+  Patch varchar
+  QueueType varchar
+  RankFk integer
+  GameDuration integer
+}
+
+Table PerksSupplement {
+  Id integer [primary key]
+  Key varchar2
+  Name varchar
+}
+
+Table RankTbl {
+  RankId integer [primary key]
+  RankName varchar
+}
+
+Table SpellsSupplement {
+  Id integer [primary key]
+  Key varchar2
+  Name varchar
+}
+
+Table SummonerMatchTbl {
+  SummonerMatchId integer [primary key]
+  SummonerFk integer
+  MatchFk integer
+  ChampionFk integer
+}
+
+Table TeamMatchTbl {
+  TeamID integer [primary key] 
+  MatchFk integer 
+  B1Champ integer
+  B2Champ integer
+  B3Champ integer
+  B4Champ integer
+  B5Champ integer
+  R1Champ integer
+  R2Champ integer
+  R3Champ integer
+  R4Champ integer
+  R5Champ integer
+  BlueBaronKills integer
+  BlueRiftHeraldKills integer
+  BlueDragonKills integer
+  BlueTowerKills integer
+  BlueKills integer
+  RedBaronKills integer
+  RedRiftHeraldKills integer
+  RedDragonKills integer
+  RedTowerKills integer
+  RedKills integer
+  RedWin bool
+  BlueWin bool
+}
+
+Ref: MatchStatsTbl.item1 > ItemTbl.ItemID 
+Ref: MatchStatsTbl.item2 > ItemTbl.ItemID 
+Ref: MatchStatsTbl.item3 > ItemTbl.ItemID 
+Ref: MatchStatsTbl.item4 > ItemTbl.ItemID
+Ref: MatchStatsTbl.item5 > ItemTbl.ItemID 
+Ref: MatchStatsTbl.item6 > ItemTbl.ItemID 
+Ref: MatchStatsTbl.EnemyChampionFk > ChampionTbl.ChampionId
+Ref: MatchStatsTbl.PrimaryKeyStone > PerksSupplement.Id
+Ref: MatchStatsTbl.PrimarySlot1 > PerksSupplement.Id
+Ref: MatchStatsTbl.PrimarySlot3 > PerksSupplement.Id
+Ref: MatchStatsTbl.PrimarySlot2 > PerksSupplement.Id
+Ref: MatchStatsTbl.SecondarySlot1 > PerksSupplement.Id
+Ref: MatchStatsTbl.SecondarySlot2 > PerksSupplement.Id
+Ref: MatchStatsTbl.SummonerSpell1 > SpellsSupplement.Id
+Ref: MatchStatsTbl.SummonerSpell2 > SpellsSupplement.Id
+Ref: MatchTbl.RankFk < RankTbl.RankId
+Ref: SummonerMatchTbl.MatchFk > MatchTbl.MatchId
+Ref: SummonerMatchTbl.ChampionFk > ChampionTbl.ChampionId
+Ref: MatchTbl.MatchId < TeamMatchTbl.MatchFk
+Ref: ChampionTbl.ChampionId < TeamMatchTbl.B1Champ
+Ref: ChampionTbl.ChampionId < TeamMatchTbl.B2Champ
+Ref: ChampionTbl.ChampionId < TeamMatchTbl.B3Champ
+Ref: ChampionTbl.ChampionId < TeamMatchTbl.B4Champ
+Ref: ChampionTbl.ChampionId < TeamMatchTbl.B5Champ
+Ref: ChampionTbl.ChampionId < TeamMatchTbl.R1Champ
+Ref: ChampionTbl.ChampionId < TeamMatchTbl.R2Champ
+Ref: ChampionTbl.ChampionId < TeamMatchTbl.R3Champ
+Ref: ChampionTbl.ChampionId < TeamMatchTbl.R4Champ
+Ref: ChampionTbl.ChampionId < TeamMatchTbl.R5Champ
+Ref: SummonerMatchTbl.SummonerMatchId < MatchStatsTbl.SummonerMatchFk

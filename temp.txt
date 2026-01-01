@@ -1,0 +1,580 @@
+0.01 ARAM
+5-fold CV ROC-AUC scores: [0.84639222 0.84695739 0.84740735 0.85460611 0.85507307]
+Mean CV ROC-AUC: 0.8500872267423661
+Test ROC-AUC: 0.8375104521872658
+                         feature  coefficient
+8                 TurretsDestr>1     1.713875
+5                         deaths    -1.027363
+4                          kills     0.540843
+23       DmgDealt TurretsDestr>1    -0.377044
+6                        assists     0.340090
+31              TotalGold deaths     0.285759
+29       DmgTaken TurretsDestr>1    -0.257816
+0                  MinionsKilled    -0.171220
+43        assists TurretsDestr>1    -0.164419
+26               DmgTaken deaths     0.156179
+3                      TotalGold    -0.136188
+39                deaths assists     0.128926
+36                 kills assists     0.089983
+19                DmgDealt kills    -0.062693
+42           assists visionScore     0.008206
+32             TotalGold assists     0.000000
+30               TotalGold kills     0.000000
+28          DmgTaken visionScore     0.000000
+37             kills visionScore     0.000000
+33         TotalGold visionScore     0.000000
+34      TotalGold TurretsDestr>1     0.000000
+35                  kills deaths     0.000000
+38          kills TurretsDestr>1     0.000000
+40            deaths visionScore     0.000000
+41         deaths TurretsDestr>1     0.000000
+27              DmgTaken assists     0.000000
+22          DmgDealt visionScore     0.000000
+25                DmgTaken kills     0.000000
+24            DmgTaken TotalGold     0.000000
+2                       DmgTaken     0.000000
+7                    visionScore     0.000000
+9         MinionsKilled DmgDealt     0.000000
+10        MinionsKilled DmgTaken     0.000000
+11       MinionsKilled TotalGold     0.000000
+12           MinionsKilled kills     0.000000
+13          MinionsKilled deaths     0.000000
+14         MinionsKilled assists     0.000000
+15     MinionsKilled visionScore     0.000000
+16  MinionsKilled TurretsDestr>1     0.000000
+17             DmgDealt DmgTaken     0.000000
+18            DmgDealt TotalGold     0.000000
+20               DmgDealt deaths     0.000000
+21              DmgDealt assists     0.000000
+1                       DmgDealt     0.000000
+44    visionScore TurretsDestr>1     0.000000
+0.01 CHERRY
+5-fold CV ROC-AUC scores: [0.96183166 0.96422103 0.9610568  0.9633934  0.96135437]
+Mean CV ROC-AUC: 0.9623714515581803
+Test ROC-AUC: 0.9610226043698366
+                      feature  coefficient
+3                   TotalGold     2.150290
+6                     assists     1.315800
+4                       kills     1.181170
+1                    DmgDealt     0.414624
+5                      deaths    -0.095809
+2                    DmgTaken     0.086012
+0               MinionsKilled     0.045025
+28          TotalGold assists     0.000000
+23            DmgTaken deaths     0.000000
+24           DmgTaken assists     0.000000
+25       DmgTaken visionScore     0.000000
+26            TotalGold kills     0.000000
+27           TotalGold deaths     0.000000
+31              kills assists     0.000000
+29      TotalGold visionScore     0.000000
+30               kills deaths     0.000000
+21         DmgTaken TotalGold     0.000000
+32          kills visionScore     0.000000
+33             deaths assists     0.000000
+34         deaths visionScore     0.000000
+22             DmgTaken kills     0.000000
+18            DmgDealt deaths     0.000000
+20       DmgDealt visionScore     0.000000
+19           DmgDealt assists     0.000000
+17             DmgDealt kills     0.000000
+16         DmgDealt TotalGold     0.000000
+15          DmgDealt DmgTaken     0.000000
+14  MinionsKilled visionScore     0.000000
+13      MinionsKilled assists     0.000000
+12       MinionsKilled deaths     0.000000
+11        MinionsKilled kills     0.000000
+10    MinionsKilled TotalGold     0.000000
+9      MinionsKilled DmgTaken     0.000000
+8      MinionsKilled DmgDealt     0.000000
+7                 visionScore     0.000000
+35        assists visionScore     0.000000
+0.01 CLASSIC
+5-fold CV ROC-AUC scores: [0.91707139 0.91656891 0.91672215 0.91658015 0.9185229 ]
+Mean CV ROC-AUC: 0.9170931018923536
+Test ROC-AUC: 0.9152310386063702
+                  feature  coefficient
+5                  deaths    -2.485409
+6                 assists     2.320382
+4                   kills     1.983080
+10         TurretsDestr>3     1.961770
+2                DmgTaken    -1.103094
+..                    ...          ...
+50   kills TurretsDestr>3     0.000000
+41  TotalGold DragonKills     0.000000
+48       kills BaronKills     0.000000
+47      kills DragonKills     0.000000
+22     DmgDealt TotalGold     0.000000
+
+[66 rows x 2 columns]
+0.01 SWIFTPLAY
+5-fold CV ROC-AUC scores: [0.86854533 0.87025433 0.85557244 0.85947469 0.86989993]
+Mean CV ROC-AUC: 0.8647493445113735
+Test ROC-AUC: 0.8288581401146846
+                       feature  coefficient
+10              TurretsDestr>2     0.767662
+5                       deaths    -0.765182
+6                      assists     0.573311
+4                        kills     0.484860
+8                   BaronKills     0.118877
+..                         ...          ...
+30          DmgTaken TotalGold     0.000000
+31              DmgTaken kills     0.000000
+32             DmgTaken deaths     0.000000
+1                     DmgDealt     0.000000
+65  visionScore TurretsDestr>2     0.000000
+
+[66 rows x 2 columns]
+0.01 ULTBOOK
+5-fold CV ROC-AUC scores: [0.5 0.5 0.5 0.5 0.5]
+Mean CV ROC-AUC: 0.5
+Test ROC-AUC: 0.5
+                        feature  coefficient
+0                 MinionsKilled          0.0
+68          deaths GameDuration          0.0
+66            deaths BaronKills          0.0
+65           deaths DragonKills          0.0
+64  deaths CurrentMasteryPoints          0.0
+..                          ...          ...
+28              DmgDealt deaths          0.0
+27               DmgDealt kills          0.0
+26           DmgDealt TotalGold          0.0
+25            DmgDealt DmgTaken          0.0
+90  GameDuration TurretsDestr>2          0.0
+
+[91 rows x 2 columns]
+0.1 ARAM
+5-fold CV ROC-AUC scores: [0.86310272 0.86150046 0.86218498 0.86636261 0.86902888]
+Mean CV ROC-AUC: 0.8644359273398579
+Test ROC-AUC: 0.8476179892633889
+                         feature  coefficient
+31              TotalGold deaths     3.817311
+8                 TurretsDestr>1     2.961677
+5                         deaths    -2.509191
+4                          kills     1.844014
+6                        assists     1.566304
+32             TotalGold assists    -1.463201
+34      TotalGold TurretsDestr>1    -1.295464
+3                      TotalGold    -0.956640
+35                  kills deaths    -0.870457
+13          MinionsKilled deaths    -0.723871
+11       MinionsKilled TotalGold     0.566318
+0                  MinionsKilled    -0.503765
+30               TotalGold kills    -0.493902
+43        assists TurretsDestr>1    -0.464520
+16  MinionsKilled TurretsDestr>1     0.373296
+14         MinionsKilled assists     0.333223
+41         deaths TurretsDestr>1    -0.305814
+19                DmgDealt kills    -0.257240
+23       DmgDealt TurretsDestr>1    -0.153638
+1                       DmgDealt    -0.129101
+36                 kills assists     0.119207
+25                DmgTaken kills    -0.090851
+29       DmgTaken TurretsDestr>1    -0.090474
+21              DmgDealt assists     0.079300
+42           assists visionScore     0.076138
+27              DmgTaken assists     0.065050
+33         TotalGold visionScore    -0.064697
+15     MinionsKilled visionScore     0.061310
+24            DmgTaken TotalGold     0.050241
+26               DmgTaken deaths    -0.049203
+40            deaths visionScore    -0.046396
+44    visionScore TurretsDestr>1    -0.035986
+22          DmgDealt visionScore     0.029202
+12           MinionsKilled kills    -0.024891
+17             DmgDealt DmgTaken     0.017913
+9         MinionsKilled DmgDealt    -0.011371
+38          kills TurretsDestr>1    -0.006242
+28          DmgTaken visionScore     0.000000
+20               DmgDealt deaths     0.000000
+18            DmgDealt TotalGold     0.000000
+37             kills visionScore     0.000000
+39                deaths assists     0.000000
+10        MinionsKilled DmgTaken     0.000000
+7                    visionScore     0.000000
+2                       DmgTaken     0.000000
+0.1 CHERRY
+5-fold CV ROC-AUC scores: [0.96197791 0.96426252 0.96094279 0.96362975 0.96148344]
+Mean CV ROC-AUC: 0.9624592815261973
+Test ROC-AUC: 0.9611205119549022
+                      feature  coefficient
+3                   TotalGold     2.363337
+6                     assists     1.861470
+4                       kills     1.365863
+1                    DmgDealt     0.825434
+2                    DmgTaken     0.401798
+15          DmgDealt DmgTaken    -0.298123
+33             deaths assists    -0.258050
+22             DmgTaken kills    -0.238950
+19           DmgDealt assists    -0.220421
+24           DmgTaken assists    -0.154358
+18            DmgDealt deaths    -0.141087
+32          kills visionScore     0.125251
+0               MinionsKilled     0.057341
+35        assists visionScore    -0.056239
+7                 visionScore    -0.048146
+25       DmgTaken visionScore    -0.046054
+20       DmgDealt visionScore     0.041418
+11        MinionsKilled kills     0.034250
+14  MinionsKilled visionScore    -0.010753
+9      MinionsKilled DmgTaken     0.008307
+30               kills deaths    -0.002512
+8      MinionsKilled DmgDealt     0.002127
+5                      deaths    -0.002126
+21         DmgTaken TotalGold     0.000000
+23            DmgTaken deaths     0.000000
+10    MinionsKilled TotalGold     0.000000
+17             DmgDealt kills     0.000000
+26            TotalGold kills     0.000000
+27           TotalGold deaths     0.000000
+28          TotalGold assists     0.000000
+29      TotalGold visionScore     0.000000
+16         DmgDealt TotalGold     0.000000
+31              kills assists     0.000000
+12       MinionsKilled deaths     0.000000
+34         deaths visionScore     0.000000
+13      MinionsKilled assists     0.000000
+0.1 CLASSIC
+5-fold CV ROC-AUC scores: [0.9186522  0.91820227 0.91858269 0.9182907  0.92025269]
+Mean CV ROC-AUC: 0.9187961099406154
+Test ROC-AUC: 0.9161586536863254
+                     feature  coefficient
+6                    assists     3.170762
+5                     deaths    -2.780034
+4                      kills     2.669843
+10            TurretsDestr>3     2.476389
+39          TotalGold deaths     1.980614
+..                       ...          ...
+56       assists DragonKills     0.023780
+18  MinionsKilled BaronKills    -0.020296
+47         kills DragonKills     0.001848
+41     TotalGold DragonKills     0.000000
+30        DmgTaken TotalGold     0.000000
+
+[66 rows x 2 columns]
+0.1 SWIFTPLAY
+5-fold CV ROC-AUC scores: [0.88463771 0.88967869 0.87296125 0.87817452 0.88782414]
+Mean CV ROC-AUC: 0.8826552629373381
+Test ROC-AUC: 0.8487908252306159
+                  feature  coefficient
+5                  deaths    -2.042378
+10         TurretsDestr>2     1.478733
+6                 assists     1.393765
+4                   kills     1.345108
+39       TotalGold deaths     1.218660
+..                    ...          ...
+35    DmgTaken BaronKills     0.000000
+38        TotalGold kills     0.000000
+41  TotalGold DragonKills     0.000000
+42   TotalGold BaronKills     0.000000
+33       DmgTaken assists     0.000000
+
+[66 rows x 2 columns]
+0.1 ULTBOOK
+5-fold CV ROC-AUC scores: [0.5 0.5 0.5 0.5 0.5]
+Mean CV ROC-AUC: 0.5
+Test ROC-AUC: 0.5
+                        feature  coefficient
+0                 MinionsKilled          0.0
+68          deaths GameDuration          0.0
+66            deaths BaronKills          0.0
+65           deaths DragonKills          0.0
+64  deaths CurrentMasteryPoints          0.0
+..                          ...          ...
+28              DmgDealt deaths          0.0
+27               DmgDealt kills          0.0
+26           DmgDealt TotalGold          0.0
+25            DmgDealt DmgTaken          0.0
+90  GameDuration TurretsDestr>2          0.0
+
+[91 rows x 2 columns]
+1 ARAM
+5-fold CV ROC-AUC scores: [0.8640405  0.86251032 0.86351094 0.8672172  0.86950868]
+Mean CV ROC-AUC: 0.8653575289717199
+Test ROC-AUC: 0.8480399623254988
+                         feature  coefficient
+31              TotalGold deaths     5.251488
+8                 TurretsDestr>1     3.128265
+5                         deaths    -2.858564
+4                          kills     2.510397
+32             TotalGold assists    -1.996652
+6                        assists     1.978693
+34      TotalGold TurretsDestr>1    -1.502631
+3                      TotalGold    -1.297597
+35                  kills deaths    -1.258733
+30               TotalGold kills    -1.221816
+11       MinionsKilled TotalGold     1.101748
+13          MinionsKilled deaths    -1.083167
+0                  MinionsKilled    -0.603244
+43        assists TurretsDestr>1    -0.454195
+26               DmgTaken deaths    -0.440146
+16  MinionsKilled TurretsDestr>1     0.408729
+14         MinionsKilled assists     0.402727
+1                       DmgDealt    -0.378397
+41         deaths TurretsDestr>1    -0.340992
+21              DmgDealt assists     0.296854
+33         TotalGold visionScore    -0.240923
+39                deaths assists    -0.215060
+24            DmgTaken TotalGold     0.202800
+9         MinionsKilled DmgDealt    -0.198638
+25                DmgTaken kills    -0.139425
+40            deaths visionScore    -0.132502
+36                 kills assists     0.129841
+27              DmgTaken assists     0.120907
+23       DmgDealt TurretsDestr>1    -0.120771
+2                       DmgTaken     0.120458
+42           assists visionScore     0.117458
+15     MinionsKilled visionScore     0.095016
+29       DmgTaken TurretsDestr>1    -0.092619
+22          DmgDealt visionScore     0.091147
+28          DmgTaken visionScore     0.079317
+19                DmgDealt kills     0.077548
+18            DmgDealt TotalGold    -0.067648
+17             DmgDealt DmgTaken     0.067024
+7                    visionScore     0.059977
+44    visionScore TurretsDestr>1    -0.036687
+10        MinionsKilled DmgTaken    -0.028814
+38          kills TurretsDestr>1     0.020295
+37             kills visionScore    -0.003331
+12           MinionsKilled kills     0.002909
+20               DmgDealt deaths     0.000000
+1 CHERRY
+5-fold CV ROC-AUC scores: [0.96204648 0.96450941 0.96037224 0.96398194 0.96164935]
+Mean CV ROC-AUC: 0.9625118840884959
+Test ROC-AUC: 0.9612636886384388
+                      feature  coefficient
+6                     assists     2.333796
+3                   TotalGold     1.970248
+4                       kills     1.782758
+1                    DmgDealt     1.337154
+19           DmgDealt assists    -0.774388
+22             DmgTaken kills    -0.674975
+33             deaths assists    -0.640499
+28          TotalGold assists     0.514569
+24           DmgTaken assists    -0.508874
+2                    DmgTaken     0.496848
+10    MinionsKilled TotalGold    -0.484301
+7                 visionScore    -0.468095
+20       DmgDealt visionScore     0.402076
+30               kills deaths    -0.371453
+18            DmgDealt deaths    -0.357231
+32          kills visionScore     0.333036
+17             DmgDealt kills    -0.295793
+26            TotalGold kills     0.280026
+25       DmgTaken visionScore    -0.259826
+0               MinionsKilled     0.196704
+5                      deaths     0.194897
+27           TotalGold deaths     0.193028
+31              kills assists     0.188780
+11        MinionsKilled kills     0.180437
+23            DmgTaken deaths     0.176328
+15          DmgDealt DmgTaken    -0.127058
+13      MinionsKilled assists     0.110283
+34         deaths visionScore     0.101200
+21         DmgTaken TotalGold     0.083989
+29      TotalGold visionScore     0.077026
+8      MinionsKilled DmgDealt     0.069346
+14  MinionsKilled visionScore    -0.020632
+12       MinionsKilled deaths    -0.014166
+16         DmgDealt TotalGold     0.000000
+9      MinionsKilled DmgTaken     0.000000
+35        assists visionScore     0.000000
+1 CLASSIC
+5-fold CV ROC-AUC scores: [0.91869793 0.91826406 0.91861694 0.91834235 0.92031242]
+Mean CV ROC-AUC: 0.9188467406150002
+Test ROC-AUC: 0.9161845604801169
+                      feature  coefficient
+6                     assists     3.290429
+5                      deaths    -2.817344
+4                       kills     2.793579
+10             TurretsDestr>3     2.540169
+39           TotalGold deaths     2.213949
+..                        ...          ...
+28       DmgDealt visionScore     0.031590
+64  BaronKills TurretsDestr>3    -0.030544
+41      TotalGold DragonKills    -0.023498
+18   MinionsKilled BaronKills    -0.015746
+59     assists TurretsDestr>3     0.000000
+
+[66 rows x 2 columns]
+1 SWIFTPLAY
+5-fold CV ROC-AUC scores: [0.88991238 0.89354353 0.87646396 0.88686715 0.89632383]
+Mean CV ROC-AUC: 0.8886221721181127
+Test ROC-AUC: 0.8526884401229952
+                       feature  coefficient
+39            TotalGold deaths     2.588414
+4                        kills     2.505896
+5                       deaths    -2.430712
+6                      assists     2.310068
+40           TotalGold assists    -2.107547
+..                         ...          ...
+62  DragonKills TurretsDestr>2    -0.011662
+18    MinionsKilled BaronKills     0.004376
+42        TotalGold BaronKills     0.000000
+41       TotalGold DragonKills     0.000000
+11      MinionsKilled DmgDealt     0.000000
+
+[66 rows x 2 columns]
+1 ULTBOOK
+5-fold CV ROC-AUC scores: [1. 1. 1. 1. 1.]
+Mean CV ROC-AUC: 1.0
+Test ROC-AUC: 1.0
+                          feature  coefficient
+39               DmgTaken assists     1.068428
+28                DmgDealt deaths    -1.029179
+74           assists GameDuration     0.667170
+64    deaths CurrentMasteryPoints    -0.488986
+90    GameDuration TurretsDestr>2     0.432876
+..                            ...          ...
+30  DmgDealt CurrentMasteryPoints     0.000000
+29               DmgDealt assists     0.000000
+27                 DmgDealt kills     0.000000
+26             DmgDealt TotalGold     0.000000
+45        DmgTaken TurretsDestr>2     0.000000
+
+[91 rows x 2 columns]
+10 ARAM
+5-fold CV ROC-AUC scores: [0.86404686 0.86252964 0.86354107 0.86718156 0.86941039]
+Mean CV ROC-AUC: 0.8653419029754398
+Test ROC-AUC: 0.848023642925307
+                         feature  coefficient
+31              TotalGold deaths     5.446238
+8                 TurretsDestr>1     3.146300
+5                         deaths    -2.905390
+4                          kills     2.583630
+32             TotalGold assists    -2.049159
+6                        assists     2.020412
+34      TotalGold TurretsDestr>1    -1.530875
+3                      TotalGold    -1.331300
+35                  kills deaths    -1.316468
+30               TotalGold kills    -1.315782
+11       MinionsKilled TotalGold     1.170548
+13          MinionsKilled deaths    -1.127638
+0                  MinionsKilled    -0.621509
+26               DmgTaken deaths    -0.489104
+43        assists TurretsDestr>1    -0.451330
+16  MinionsKilled TurretsDestr>1     0.413445
+14         MinionsKilled assists     0.412605
+1                       DmgDealt    -0.390118
+41         deaths TurretsDestr>1    -0.345123
+21              DmgDealt assists     0.333007
+33         TotalGold visionScore    -0.279480
+39                deaths assists    -0.250809
+24            DmgTaken TotalGold     0.223989
+9         MinionsKilled DmgDealt    -0.218320
+40            deaths visionScore    -0.160822
+19                DmgDealt kills     0.146220
+25                DmgTaken kills    -0.145206
+18            DmgDealt TotalGold    -0.139556
+2                       DmgTaken     0.133348
+36                 kills assists     0.128598
+27              DmgTaken assists     0.126222
+23       DmgDealt TurretsDestr>1    -0.119231
+42           assists visionScore     0.118619
+28          DmgTaken visionScore     0.107571
+22          DmgDealt visionScore     0.103775
+15     MinionsKilled visionScore     0.100353
+29       DmgTaken TurretsDestr>1    -0.092069
+7                    visionScore     0.086417
+17             DmgDealt DmgTaken     0.077603
+44    visionScore TurretsDestr>1    -0.037092
+10        MinionsKilled DmgTaken    -0.036882
+38          kills TurretsDestr>1     0.029551
+12           MinionsKilled kills     0.013000
+37             kills visionScore    -0.007796
+20               DmgDealt deaths     0.005556
+10 CHERRY
+5-fold CV ROC-AUC scores: [0.96190056 0.96450984 0.96026702 0.96400426 0.96170245]
+Mean CV ROC-AUC: 0.9624768259887617
+Test ROC-AUC: 0.9612731635660259
+                      feature  coefficient
+6                     assists     2.440056
+3                   TotalGold     1.874338
+4                       kills     1.820577
+1                    DmgDealt     1.454247
+19           DmgDealt assists    -0.818860
+22             DmgTaken kills    -0.721075
+33             deaths assists    -0.706784
+7                 visionScore    -0.567104
+10    MinionsKilled TotalGold    -0.564793
+24           DmgTaken assists    -0.553007
+28          TotalGold assists     0.512119
+20       DmgDealt visionScore     0.465173
+2                    DmgTaken     0.442221
+30               kills deaths    -0.429823
+26            TotalGold kills     0.380724
+18            DmgDealt deaths    -0.378495
+32          kills visionScore     0.368183
+17             DmgDealt kills    -0.352100
+25       DmgTaken visionScore    -0.292861
+27           TotalGold deaths     0.260816
+0               MinionsKilled     0.226284
+21         DmgTaken TotalGold     0.223578
+5                      deaths     0.209679
+11        MinionsKilled kills     0.204409
+31              kills assists     0.203596
+23            DmgTaken deaths     0.198105
+29      TotalGold visionScore     0.141603
+13      MinionsKilled assists     0.129704
+15          DmgDealt DmgTaken    -0.118514
+16         DmgDealt TotalGold    -0.118218
+34         deaths visionScore     0.105071
+8      MinionsKilled DmgDealt     0.086308
+14  MinionsKilled visionScore    -0.025046
+12       MinionsKilled deaths    -0.024437
+35        assists visionScore     0.012654
+9      MinionsKilled DmgTaken    -0.005148
+10 CLASSIC
+5-fold CV ROC-AUC scores: [0.91869873 0.91826479 0.91861764 0.91834382 0.92031068]
+Mean CV ROC-AUC: 0.9188471322983798
+Test ROC-AUC: 0.9161841169221268
+                      feature  coefficient
+6                     assists     3.304080
+5                      deaths    -2.820300
+4                       kills     2.806207
+10             TurretsDestr>3     2.547886
+39           TotalGold deaths     2.228695
+..                        ...          ...
+41      TotalGold DragonKills    -0.032008
+64  BaronKills TurretsDestr>3    -0.029737
+28       DmgDealt visionScore     0.029448
+18   MinionsKilled BaronKills    -0.015248
+59     assists TurretsDestr>3     0.003916
+
+[66 rows x 2 columns]
+10 SWIFTPLAY
+5-fold CV ROC-AUC scores: [0.88986102 0.89255228 0.87592133 0.88668193 0.89656565]
+Mean CV ROC-AUC: 0.8883164422951986
+Test ROC-AUC: 0.8531122745782431
+                       feature  coefficient
+39            TotalGold deaths     2.886624
+4                        kills     2.683899
+5                       deaths    -2.501135
+6                      assists     2.443890
+40           TotalGold assists    -2.322547
+..                         ...          ...
+58         assists visionScore     0.059817
+42        TotalGold BaronKills     0.026181
+62  DragonKills TurretsDestr>2    -0.016692
+41       TotalGold DragonKills    -0.009984
+18    MinionsKilled BaronKills     0.001074
+
+[66 rows x 2 columns]
+10 ULTBOOK
+5-fold CV ROC-AUC scores: [1. 1. 1. 1. 1.]
+Mean CV ROC-AUC: 1.0
+Test ROC-AUC: 1.0
+                          feature  coefficient
+39               DmgTaken assists     2.546497
+28                DmgDealt deaths    -2.365638
+90    GameDuration TurretsDestr>2     1.302721
+64    deaths CurrentMasteryPoints    -0.975686
+74           assists GameDuration     0.939119
+..                            ...          ...
+30  DmgDealt CurrentMasteryPoints     0.000000
+29               DmgDealt assists     0.000000
+27                 DmgDealt kills     0.000000
+26             DmgDealt TotalGold     0.000000
+45        DmgTaken TurretsDestr>2     0.000000
+
+[91 rows x 2 columns]
